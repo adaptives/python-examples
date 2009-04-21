@@ -1,6 +1,8 @@
 #!/usr/bin/python
 # Filename : python-strings.py
 
+#Note: Python strings are immutable
+
 #Strings can be enclosed in single quotes
 print 'Hello World in single quotes'
 
