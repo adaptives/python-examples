@@ -37,3 +37,9 @@ print '2 + 3 = ', (2+3)
 greeting = "Hello my dear friend how are you?"
 print "the length of string '" ,greeting, "' is ", len(greeting)
 
+#Let's check if the string contains the word 'Hello'
+if('Hello' in greeting):
+  print 'This greeting seems to be in English'
+
+if(greeting.find('Hello') != -1):
+  print 'This greeting seems to be in English'
