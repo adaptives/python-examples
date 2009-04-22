@@ -1,5 +1,5 @@
 #!/usr/bin/python
-# Filename : pythonic_objects
+# Filename : pythonic_objects.py
 
 class Person:
 
