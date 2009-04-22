@@ -1,5 +1,6 @@
 #!/usr/bin/python
-# Filename : substitutions.py
+# Filename : string_interpolation.py
+ 
 from string import Template
 
 greeting = 'Hello'
