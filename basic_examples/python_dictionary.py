@@ -27,3 +27,18 @@ del(pop['Brazil'])
 
 print_dict(pop, 'The 3 highest populated countries in the world are (unsorted)')
 
+class SimpleMutableClass:
+  def __init__(self, num):
+    self.num = num
+
+smc1 = SimpleMutableClass(4)
+#maps can only have immutable objects as keys, we try putting a mutable object
+illegal_dict = {smc1 : 4}
+#We are able to create and print the map
+print illegal_dict[smc1]
+#Lets mutate the key
+smc1.num = 6
+#Mutation not reflected in the dict
+assert illegal_dict[smc1] == 4
+#But the change did happen
+assert smc1.num == 6
