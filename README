@@ -5,4 +5,5 @@ This project contains a series of Python examples to help someone new to Python 
 I am listing the order in which you may want to read these examples. The order below starts with simple concepts, moving on to more advanced ones.
 
  - python_strings.py
- - 
+ - python_numbers.py
+ - python_booleans.py
