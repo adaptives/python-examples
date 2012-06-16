@@ -27,6 +27,8 @@ del(pop['Brazil'])
 
 print_dict(pop, 'The 3 highest populated countries in the world are (unsorted)')
 
+#This is how we define a class in Python
+#This is a mutable class. We will see that it cannot be used as a key in a Python dict 
 class SimpleMutableClass:
   def __init__(self, num):
     self.num = num
