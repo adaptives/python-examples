@@ -16,7 +16,7 @@ These strings can contain ' as well as " quotes """
 
 #Strings can be continued on the next line
 print "This string is continued on the\
-next line but a newline is not added"
+next line (in the source) but a newline is not added"
 
 #Raw strings
 print r"The newline character is represented with \n"
