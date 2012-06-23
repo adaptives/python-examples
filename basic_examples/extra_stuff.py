@@ -1,5 +1,4 @@
 #!/usr/bin/python
-# Filename : extra_stuff
 
 import os
 

@@ -1,5 +1,5 @@
 #!/usr/bin/python
-# Filename : python_files.py
+
 import os
 
 def read_file(name):

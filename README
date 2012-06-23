@@ -12,3 +12,12 @@ I am listing the order in which you may want to read these examples. The order b
  - string_interpolation.py
  - python_lists.py
  - python_dictionary.py
+ - python_tupes.py
+ - python_sequences,py
+ - python_functions.py
+ - python_logical_lines.py
+ - python_string_interpolation.py
+ - python_modules.py
+ - python_os_module.py
+ - python_star_args_and_kwargs.py
+ - python_objects.py

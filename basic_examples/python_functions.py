@@ -1,5 +1,4 @@
 #!/usr/bin/python
-# Filename : python_functions.py
 
 maxCalled = 0
 minCalled = 0

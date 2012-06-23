@@ -1,5 +1,4 @@
 #!/usr/bin/python
-# Filename : python_tuples.py
 
 #Note: Python tuples are immutable just like strings
 

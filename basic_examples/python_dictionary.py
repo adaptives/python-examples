@@ -1,5 +1,4 @@
 #!/usr/bin/python
-# Filename : python_dictionary.py
 
 #A Python dictionary is a collection which contains key value pairs, where the
 #key must be an immutable object

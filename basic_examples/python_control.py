@@ -1,5 +1,4 @@
 #!/usr/bin/python
-# Filename : python_control.py
 
 age = int(raw_input('Enter your age '))
 #If else statements in Python

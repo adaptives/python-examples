@@ -1,5 +1,4 @@
 #!/usr/bin/python
-# Filename : string_interpolation.py
  
 from string import Template
 

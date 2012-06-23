@@ -1,5 +1,4 @@
 #!/usr/bin/python
-# Filename : python_lists.py
 
 jvm_langs = ['Java', 'Jython', 'Groovy', 'Scala', 'Jruby']
 

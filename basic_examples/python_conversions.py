@@ -1,5 +1,4 @@
 #!/usr/bin/python
-# Filename : python_conversions
 
 #num is of type int
 num = 8 

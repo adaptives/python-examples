@@ -1,5 +1,4 @@
 #!/usr/bin/python
-# Filename : python_numbers.py
 
 print "8 is an integer ", 8
 

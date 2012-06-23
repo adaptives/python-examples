@@ -1,5 +1,4 @@
 #!/usr/bin/python
-# Filename : custom_exceptions.py
 
 class MyMethodNotImplementedError(Exception):
   def __init__(self):  

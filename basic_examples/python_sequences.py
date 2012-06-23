@@ -1,5 +1,4 @@
 #!/usr/bin/python
-# Filename : python_sequences.py
 
 #Note: lists, tuples, and strings are all sequences in Python. Sequences allow 
 #indexing and slicing operations

@@ -1,5 +1,4 @@
 #!/usr/bin/python
-# Filename : python-strings.py
 
 #Note: Python strings are immutable
 

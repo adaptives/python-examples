@@ -1,5 +1,4 @@
 #!/usr/bin/python
-# Filename : functions_with_tuples_and_kwargs.py
 
 def add_all(*list_of_nums):
   sum = 0
