@@ -3,43 +3,29 @@
 #A Python dictionary is a collection which contains key value pairs, where the
 #key must be an immutable object
 
-def print_dict(the_dict, msg="Contents of the dict"):
-  print msg
-  for key, value in the_dict.items():
-    print key, value
+# you can also run this in the interpretor
 
-pop = {'China' : 1337722000,
-       'India' : 1162210000,
-       'United States' : 306261000}
+phonebook =  {'joe':'568-564-1109', 'ashish':'657-097-7862'}
 
-print 'The population of India is ', pop['India']
+print "\nPrinting the phonebook"
+print phonebook
+print "\nPrinting joe's phone number"
+phonebook['joe']
 
-#We have 3 countried let's add 2 more
-pop['Indonesia'] = 229976124
-pop['Brazil'] = 191080000
+print "\nAdding an element to the phonebook"
+phonebook['joel'] = '657'
+print "\nPrinting the phone number of the newly added contact joel"
+print phonebook['joel']
 
-print_dict(pop, 'The 5 highest populated countries in the world are (unsorted)')
+print "\nItearating across the phonebook with it's keys"
+for k in phonebook.keys():
+   print k, phonebook[k]
 
-#Let's say we decide to keep only top 3
-del(pop['Indonesia'])
-del(pop['Brazil'])
+print "\nHere's how we remove an element from the dictionary - removing 'joel'"
+del(phonebook['joel'])
 
-print_dict(pop, 'The 3 highest populated countries in the world are (unsorted)')
+print "\nIterating across the phonebook with key and value"
+for k, v in phonebook.items():
+   print k, v
 
-#This is how we define a class in Python
-#This is a mutable class. We will see that it cannot be used as a key in a Python dict 
-class SimpleMutableClass:
-  def __init__(self, num):
-    self.num = num
 
-smc1 = SimpleMutableClass(4)
-#maps can only have immutable objects as keys, we try putting a mutable object
-illegal_dict = {smc1 : 4}
-#We are able to create and print the map
-print illegal_dict[smc1]
-#Lets mutate the key
-smc1.num = 6
-#Mutation not reflected in the dict
-assert illegal_dict[smc1] == 4
-#But the change did happen
-assert smc1.num == 6
