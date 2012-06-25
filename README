@@ -4,6 +4,8 @@ This project contains a series of Python examples to help someone new to Python 
 
 I am listing the order in which you may want to read these examples. The order below starts with simple concepts, moving on to more advanced ones.
 
+**Introduction To Python**
+
  - python_strings.py
  - python_numbers.py
  - python_booleans.py
@@ -21,3 +23,17 @@ I am listing the order in which you may want to read these examples. The order b
  - python_os_module.py
  - python_star_args_and_kwargs.py
  - python_objects.py
+ 
+ **TDD With Python**
+ 
+ Slides for introduction to TDD With Python
+ 
+ Code Samples
+ 
+  - write_user_details.py
+    - test_write_user_details.py
+    - test_write_user_details_istub.py
+    - test_write_user_details_iostub.py
+   - write_user_details_di.py
+    - test_write_user_details_mock.py
+   

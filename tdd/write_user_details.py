@@ -13,3 +13,7 @@ def accept_and_write():
     fp.write("Age : %s\n" % age)
     fp.write("City : %s\n" % city)
     fp.close()
+    
+if __name__ == "__main__":
+    accept_and_write()
+    

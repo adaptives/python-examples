@@ -1,0 +1,48 @@
+There are two ways to us the PyMock framework. As standalone or as a unittest testcase. If used in standalone mode, we need to create a controller, and when used as a unittest testcase, the controller is created automatically for us. 
+
+Stana
+
+
+=============================================
+1. Explain and run write_user_details.py
+2. Explaina and Test the output file with test_write_user_details.py
+3. Explain the drawbacks of the plumbing we have to do with this type of test. Explain why we need to automate the accepting of UserInput
+4. Explain and run test_write_user_details_istub.py and show it's benefits. This is a one step process. However, we are still writing to a file. This too is not good.
+5. Explain and run test_write_user_details_iostub.py
+6. This is good but we cannot wrote stubs for everything in a large project. It will take too long to do it
+7. Here is where mocking comes in. Explain and run test_write_user_details_mock.py
+8. We cannot manually run so many test cases. Here is where test suites come in the picture 
+9. unittest also supports test discovery
+   python -m unittest discover
+   
+   
+class MyTestCase(unittest.TestCase):
+
+    @unittest.skip("demonstrating skipping")
+    def test_nothing(self):
+        self.fail("shouldn't happen")
+
+    @unittest.skipIf(mylib.__version__ < (1, 3),
+                     "not supported in this library version")
+    def test_format(self):
+        # Tests that work for only a certain version of the library.
+        pass
+
+    @unittest.skipUnless(sys.platform.startswith("win"), "requires Windows")
+    def test_windows_support(self):
+        # windows specific testing code
+        pass
+		
+@unittest.skip("showing class skipping")
+class MySkippedTestCase(unittest.TestCase):
+    def test_not_run(self):
+        pass
+		
+class ExpectedFailureTestCase(unittest.TestCase):
+    @unittest.expectedFailure
+    def test_fail(self):
+        self.assertEqual(1, 0, "broken")		
+
+Resources:
+==========
+Python unittest http://docs.python.org/library/unittest.html

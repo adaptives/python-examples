@@ -2,6 +2,14 @@ import unittest
 
 class TestUserDetails(unittest.TestCase):
     
+    def setUp(self):
+        super(TestUserDetails, self).setUp()
+        
+        
+    def tearDown(self):
+        super(TestUserDetails, self).tearDown()
+        
+        
     def test_output_file_contents(self):
         fp = open('Priyanka.txt')
         name = fp.readline()
